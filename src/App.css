@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+canvas {
+  display: block;
+}
+
+.click-to-add {
+  position: absolute;
+  border: 1px solid;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.card-text-input {
+  position: absolute;
+  padding: 8px;
+}
+
+.card-text-input input {
+  margin-left: 8px;
+  line-height: 20px;
+  height: 20px;
+  font-size: 14px;
+  width: 120px;
+}
+
+.more-info-container {
+  position: absolute;
+  padding: 8px;
+  border: 1px solid blue;
+
+  max-width: 100px;
+  white-space: wrap;
+  word-break: break-all;
+
+  margin-left: 8px;
+  border-radius: 8px;
+}
+.more-info-container button {
+  margin-top: 8px;
+}
+
+.pointer-showMoreButton {
+  cursor: context-menu;
+}
+
+.pointer-expandButton {
+  cursor: se-resize;
+}
+
+.pointer-connectButton {
+  cursor: crosshair;
+}
+
+.pointer-grab {
+  cursor: grab;
+}
+
+.help {
+  position: fixed;
+  border: 1px solid;
+  padding: 8px;
+  margin-top: 8px;
+  border-radius: 8px;
+  width: 200px;
+  left: calc(50% - 100px);
+}
