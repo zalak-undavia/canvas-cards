@@ -1,4 +1,4 @@
-Drag and Drop thaught process
+Drag and Drop thought process
 
 User can initiate a drag and drop by clicking in the center area of the card.
 
@@ -27,7 +27,7 @@ To do that, I am saving the card position at the time of drag start (top, left, 
 as well as the starting point of drag (event.x and event.y) `dragMeta` state.
 
 Now, when the user is dragging,
-we can find out the delta x between the most recent event.x and inital event.x and add that delta to initial card.left. ( and same for y coordinate )  
+we can find out the delta x between the most recent event.x and initial event.x and add that delta to initial card.left. ( and same for y coordinate )  
 That way, user can scroll with a smooth UX.
 
 Once the user releases the left mouse button (`event.buttons !== 1`), I am resetting the state `dragMeta` to note that the user has stopped dragging
